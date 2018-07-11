@@ -1,11 +1,52 @@
+<body background="https://wallup.net/wp-content/uploads/2017/11/17/272956-dark-black-cube-square-Tile-simple.jpg">
 
-<h1>Header</h1>  
-  
-  
-  
-  
-  
-  
-  
-  
+    <h2 class="bawb">Index</h2>
+    <div id="wrapper">
+    <span>
+    <form action="AddTask">
+        <button align="center" id="B1"
+        type="submit" value="add todo">Add a Task</button>
+    </form>
+    </span>
+        <button align="center" id="B1"
+        type="submit" value="add todo">Delete</button>
+    </div>
+    <br>
     
+    
+<table>
+    <tr>
+        <td>What Needs to Be done?</td>
+        <td>Due Date?</td>
+        <td>Time</td>
+    </tr>
+    
+    <tr>
+        <td>Make A lot of Money</td> 
+        <td>June 12th</td>
+        <td>9999</td>
+    </tr>
+
+    <tr>
+        <td>Make A lot of Money</td>
+        <td>June 12th</td>
+        <td>9999</td>
+    </tr>
+    
+      <tr>
+        <td>Make A lot of Money</td>
+        <td>June 12th</td>
+        <td>9999</td>
+    </tr>
+    
+    <tr>
+        <td><%=@todo_desc%></td>
+        <td><%=@todo_due%></td>
+        <td><%=@todo_time%></td>
+    </tr>
+</table>
+<br>
+
+
+
+</body>

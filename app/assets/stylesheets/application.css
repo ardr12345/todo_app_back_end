@@ -1,15 +1,151 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+input{
+    height:50px;
+    width:262px;
+    font-size:28px;
+}
+
+span{
+    font-size:24px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+html, body {
+    width: 100%;
+}
+table {
+    margin:  auto;
+}
+
+html{
+    font-family:"Ubuntu";
+}
+
+body{
+    background-color:#000;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+h3{
+    color:#FFF;
+}
+
+th, td {
+    padding: 9px;
+    text-align: center;
+}
+
+
+table, th, td {
+       border: 2px solid white;
+}
+
+table {
+    border-collapse: collapse;
+    color:white;
+    font-size:26px;
+}
+
+.add-newtodo-button{
+    font-size:24px;
+    text-align:center;
+    color:#000000;
+    outline:none;
+    border-style:none;
+    border-radius:0px;
+    box-shadow:2px 2px 1px #90A4AE;
+    background-color:White;
+    padding:10px 24px;
+    float:left
+}
+
+.add-newtodo-button:active{
+    box-shadow:1px 1px 1px #90A4AE;
+}
+
+.add-newtodo-button:hover{
+    border-style:dotted;
+}
+
+.add-newtodo-button:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.add-newtodo-button:not(:last-child) {
+    border-right: none;
+}
+
+.donetodo{
+text-decoration:line-through;
+}
+
+.table{
+    color:white;
+}
+
+.Bawks {
+    height:50px;
+    width:262px;
+    font-size:14pt;
+}
+
+.bawb{
+    border:2px solid rgb(255,255,255);
+    border-radius:5px 5px;
+    display:block;
+    width:150px;
+    margin:auto;
+    font-size:40px;
+    font-family:"Trebuchet MS";
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.output {
+    background: #eee;
+    position: relative;
+}
+
+#B1{
+    font-size:24px;
+    text-align:center;
+    color:#000000;
+    outline:none;
+    border-style:none;
+    padding:10px;
+    border-radius:0px;
+    box-shadow:2px 2px 1px #90A4AE;
+    display:block;
+    background-color:White;
+    margin-top:10px;
+}
+
+#B1:active{
+    box-shadow:1px 1px 1px #90A4AE;
+}
+
+#B1:hover{
+    border-style:dotted;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
