@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
     
     root to:'todo#index'
+    get '/index', to:'todo#index'
     get '/AddTask' , to:'todo#AddTask'
     get '/create', to:'todo#create'
     get '/destroy', to: 'todo#destroy'
