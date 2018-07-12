@@ -8,8 +8,10 @@
         type="submit" value="add todo">Add a Task</button>
     </form>
     </span>
+    <form action="index">
         <button align="center" id="B1"
         type="submit" value="add todo">Delete</button>
+    </form>
     </div>
     <br>
     
@@ -17,6 +19,7 @@
 <table>
     
     <tr>
+        <td>Done?</td>
         <td>What Needs to Be done?</td>
         <td>Due Date?</td>
         <td>Time</td>
@@ -24,6 +27,7 @@
     
         <% @todos.each do |todo| %>
     <tr>
+        <td><form action="/todo/destroy/<%= todo.id %>"<a class="add-newtodo-button" href="/todo/destroy">Delete</a></td>
         <td><%= todo.desc %></td>
         <td><%= todo.due %></td>
         <td><%= todo.time %></td>
