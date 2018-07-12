@@ -30,6 +30,9 @@ class TodoController < ApplicationController
     def AddTask
     end
     
+    def party
+    end
+    
     def create
         t = Todo.new
         t.desc = params['desc']
