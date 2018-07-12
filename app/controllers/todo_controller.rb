@@ -39,7 +39,5 @@ class TodoController < ApplicationController
         
         redirect_to "/todo/index"
         
-        
-    
     end
 end
