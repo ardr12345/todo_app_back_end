@@ -15,35 +15,21 @@
     
     
 <table>
+    
     <tr>
         <td>What Needs to Be done?</td>
         <td>Due Date?</td>
         <td>Time</td>
     </tr>
     
+        <% @todos.each do |todo| %>
     <tr>
-        <td>Make A lot of Money</td> 
-        <td>June 12th</td>
-        <td>9999</td>
-    </tr>
-
-    <tr>
-        <td>Make A lot of Money</td>
-        <td>June 12th</td>
-        <td>9999</td>
+        <td><%= todo.desc %></td>
+        <td><%= todo.due %></td>
+        <td><%= todo.time %></td>
     </tr>
     
-      <tr>
-        <td>Make A lot of Money</td>
-        <td>June 12th</td>
-        <td>9999</td>
-    </tr>
-    
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
+    <% end %>
 </table>
 <br>
 

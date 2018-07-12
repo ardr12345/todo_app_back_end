@@ -1,28 +1,26 @@
-<html>
-    
 <body>
+    <form action="create">
    
-        <button class="add-newtodo-button" type="submit" value="add todo">Confirm</button>
-    <form action="index.html">
-        <button class="add-newtodo-button" type="submit" value="add todo">Back</button>
-    </form>
+    
 <br><br><br><br>
     
     <span style="color:White;">What needs to be Done?</span>
     <br>
-        <input type="text" placeholder="Add a Task"></span>
+        <input name="desc" type="text" placeholder="Description"></span>
     <br>
     <span style="color:White;">When is it Due?</span>
     <br>
-        <input type="text" placeholder="Due Date"></span>
+        <input name="due" type="text" placeholder="Due Date"></span>
     <br>
     <span style="color:White;">How Long will it take?</span>
     <br>
-        <input type="number" step="5" placeholder="Time in Minutes">
+        <input name="time" type="text" placeholder="Time">
     <br>
     
-
-
+    <button class="add-newtodo-button" type="submit" value="add todo">Confirm</button>
+    </form>
+    <form action="index.html">
+        <button class="add-newtodo-button" type="submit" value="add todo">Back</button>
+    </form>
 
 </body>
-</html>

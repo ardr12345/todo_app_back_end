@@ -3,9 +3,9 @@
 one:
   desc: MyString
   time: 1
-  complete: false
+  due: MyString
 
 two:
   desc: MyString
   time: 1
-  complete: false
+  due: MyString

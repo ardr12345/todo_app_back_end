@@ -69,25 +69,35 @@ table {
     box-shadow:2px 2px 1px #90A4AE;
     background-color:White;
     padding:10px 24px;
-    float:left
+    float:left;
+    opacity: 0.35;
+    filter: alpha(opacity=30);
 }
 
 .add-newtodo-button:active{
     box-shadow:1px 1px 1px #90A4AE;
+    opacity: 0.35;
+    filter: alpha(opacity=30);
 }
 
 .add-newtodo-button:hover{
     border-style:dotted;
+    opacity: 0.35;
+    filter: alpha(opacity=30);
 }
 
 .add-newtodo-button:after{
     content: "";
     clear: both;
     display: table;
+    opacity: 0.35;
+    filter: alpha(opacity=30);
 }
 
 .add-newtodo-button:not(:last-child) {
     border-right: none;
+    opacity: 0.35;
+    filter: alpha(opacity=30);
 }
 
 .donetodo{
@@ -138,14 +148,20 @@ text-decoration:line-through;
     display:block;
     background-color:White;
     margin-top:10px;
+    opacity: 0.35;
+    filter: alpha(opacity=30);
 }
 
 #B1:active{
     box-shadow:1px 1px 1px #90A4AE;
+    opacity: 0.35;
+    filter: alpha(opacity=35);
 }
 
 #B1:hover{
     border-style:dotted;
+    opacity: 0.35;
+    filter: alpha(opacity=35);
 }
 
 #wrapper {
